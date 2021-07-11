@@ -7,7 +7,7 @@ endif
 set background=dark
 
 
-hi Normal ctermfg=15
+hi Normal ctermfg=15 ctermbg=233
 hi Comment ctermfg=103 cterm=italic
 hi LineNr ctermfg=243
 hi CursorLineNr ctermfg=220
