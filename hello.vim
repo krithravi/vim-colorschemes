@@ -48,7 +48,7 @@ hi MatchParen cterm=bold ctermbg=222 ctermfg=black
 hi CursorLine   cterm=NONE ctermbg=236 guibg=darkred guifg=white
 
 hi TabLineFill ctermfg=236 ctermbg=DarkGreen
-hi TabLine ctermfg=15 cterm=NONE
+hi TabLine ctermfg=15 ctermbg=235 cterm=NONE
 hi TabLineSel ctermfg=0 ctermbg=37 cterm=NONE
 
 hi Visual ctermbg=238
