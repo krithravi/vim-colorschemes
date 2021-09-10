@@ -23,7 +23,7 @@ hi Boolean ctermfg=207
 
 hi Statement ctermfg=112
 hi Conditional ctermfg=123 cterm=bold
-hi Repeat ctermfg=118 cterm=bold
+hi Repeat ctermfg=115 cterm=bold
 hi Label ctermfg=121
 " Operator doesn't work for +, - and stuff :(
 hi Operator ctermfg=183
@@ -39,12 +39,12 @@ hi Typedef ctermfg=41 cterm=bold
 
 " doesn't work
 "hi Identifier ctermfg=2
-hi Function ctermfg=156
+hi Function ctermfg=250
 
 hi Todo ctermfg=208 cterm=bold
 
 
-hi MatchParen cterm=bold ctermbg=222 ctermfg=black
+hi MatchParen cterm=bold ctermbg=green ctermfg=black
 hi CursorLine   cterm=NONE ctermbg=236 guibg=darkred guifg=white
 
 hi TabLineFill ctermfg=236 ctermbg=DarkGreen
