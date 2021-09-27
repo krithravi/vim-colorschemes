@@ -1,4 +1,4 @@
-colorscheme hello
+colorscheme black-ocean
 
 hi clear
 if exists("syntax_on")
@@ -9,43 +9,44 @@ set background=dark
 
 hi Normal ctermfg=15 ctermbg=233
 hi Comment ctermfg=103 cterm=italic
+hi Special ctermfg=103
 hi LineNr ctermfg=243
 hi CursorLineNr ctermfg=220
 
-hi Constant ctermfg=105
-hi String ctermfg=227
-hi Character ctermfg=227
-hi SpecialChar ctermfg=227 cterm=bold
-hi Number ctermfg=207
-hi Float ctermfg=207
-hi Boolean ctermfg=207
+hi Constant ctermfg=110
+hi String ctermfg=228
+hi Character ctermfg=228
+hi SpecialChar ctermfg=228 cterm=bold
+hi Number ctermfg=110
+hi Float ctermfg=110
+hi Boolean ctermfg=110
 
 
-hi Statement ctermfg=112
-hi Conditional ctermfg=123 cterm=bold
-hi Repeat ctermfg=115 cterm=bold
-hi Label ctermfg=121
+hi Statement ctermfg=36
+hi Conditional ctermfg=36
+hi Repeat ctermfg=36
+hi Label ctermfg=36
 " Operator doesn't work for +, - and stuff :(
-hi Operator ctermfg=183
-hi Keyword ctermfg=123
-hi Exception ctermfg=123 cterm=bold
+hi Operator ctermfg=36
+hi Keyword ctermfg=36
+hi Exception ctermfg=36 
 
-hi PreProc ctermfg=138
+hi PreProc ctermfg=4
 
-hi Type ctermfg=37 cterm=bold
-hi StorageClass ctermfg=209 cterm=bold
-hi Structure ctermfg=41 cterm=bold
-hi Typedef ctermfg=41 cterm=bold
+hi Type ctermfg=37 
+hi StorageClass ctermfg=41 
+hi Structure ctermfg=41 
+hi Typedef ctermfg=41 
 
 " doesn't work
 "hi Identifier ctermfg=2
-hi Function ctermfg=250
+hi Function ctermfg=157
 
 hi Todo ctermfg=208 ctermbg=NONE cterm=bold
 
 
-hi MatchParen cterm=bold ctermbg=green ctermfg=black
-hi CursorLine   cterm=NONE ctermbg=236 guibg=darkred guifg=white
+hi MatchParen cterm=bold ctermbg=34 ctermfg=black
+hi CursorLine   cterm=NONE ctermbg=236
 
 hi TabLineFill ctermfg=236 ctermbg=DarkGreen
 hi TabLine ctermfg=15 ctermbg=235 cterm=NONE
@@ -53,7 +54,6 @@ hi TabLineSel ctermfg=0 ctermbg=37 cterm=NONE
 
 hi Visual ctermbg=238
 
-hi Special ctermfg=9
 
 hi NormalColor guifg=Black guibg=Green ctermbg=120 ctermfg=232 cterm=bold
 hi InsertColor guifg=Black guibg=Cyan ctermbg=81 ctermfg=232 cterm=bold
