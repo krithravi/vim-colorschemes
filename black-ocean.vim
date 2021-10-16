@@ -14,9 +14,9 @@ hi LineNr ctermfg=243
 hi CursorLineNr ctermfg=220
 
 hi Constant ctermfg=110
-hi String ctermfg=228
-hi Character ctermfg=228
-hi SpecialChar ctermfg=228 cterm=bold
+hi String ctermfg=39
+hi Character ctermfg=39
+hi SpecialChar ctermfg=39 cterm=bold
 hi Number ctermfg=110
 hi Float ctermfg=110
 hi Boolean ctermfg=110
@@ -50,7 +50,7 @@ hi CursorLine   cterm=NONE ctermbg=236
 
 hi TabLineFill ctermfg=236 ctermbg=DarkGreen
 hi TabLine ctermfg=15 ctermbg=235 cterm=NONE
-hi TabLineSel ctermfg=0 ctermbg=37 cterm=NONE
+hi TabLineSel ctermfg=0 ctermbg=36 cterm=NONE
 
 hi Visual ctermbg=238
 
