@@ -8,7 +8,7 @@ set background=dark
 
 
 hi Normal ctermfg=15 ctermbg=233
-hi Comment ctermfg=103 cterm=italic
+hi Comment ctermfg=103 cterm=NONE
 hi Special ctermfg=103
 hi LineNr ctermfg=243
 hi CursorLineNr ctermfg=220
