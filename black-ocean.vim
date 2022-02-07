@@ -11,7 +11,7 @@ hi Normal ctermfg=15 ctermbg=233
 hi Comment ctermfg=103 cterm=NONE
 hi Special ctermfg=103
 hi LineNr ctermfg=243
-hi CursorLineNr ctermfg=220
+hi CursorLineNr ctermfg=220 cterm=NONE
 
 hi Constant ctermfg=110
 hi String ctermfg=39
