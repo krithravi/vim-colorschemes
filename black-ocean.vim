@@ -39,10 +39,11 @@ hi Structure ctermfg=41
 hi Typedef ctermfg=41 
 
 " doesn't work
-"hi Identifier ctermfg=2
+hi Identifier ctermfg=35
 hi Function ctermfg=157
 
 hi Todo ctermfg=208 ctermbg=NONE cterm=bold
+hi Pmenu ctermfg=0 ctermbg=43
 
 
 hi MatchParen cterm=bold ctermbg=34 ctermfg=black
