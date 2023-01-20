@@ -14,9 +14,9 @@ hi LineNr ctermfg=243
 hi CursorLineNr ctermfg=220 cterm=NONE
 
 hi Constant ctermfg=110
-hi String ctermfg=30
-hi Character ctermfg=30
-hi SpecialChar ctermfg=30 cterm=bold
+hi String ctermfg=31
+hi Character ctermfg=31
+hi SpecialChar ctermfg=31 cterm=bold
 hi Number ctermfg=110
 hi Float ctermfg=110
 hi Boolean ctermfg=110
