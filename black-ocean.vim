@@ -6,7 +6,6 @@ if exists("syntax_on")
 endif
 set background=dark
 
-
 hi Normal ctermfg=15 ctermbg=233
 hi Comment ctermfg=103 cterm=NONE
 hi Special ctermfg=103
@@ -14,13 +13,12 @@ hi LineNr ctermfg=243
 hi CursorLineNr ctermfg=220 cterm=NONE
 
 hi Constant ctermfg=110
-hi String ctermfg=31
-hi Character ctermfg=31
-hi SpecialChar ctermfg=31 cterm=bold
+hi String ctermfg=29
+hi Character ctermfg=29
+hi SpecialChar ctermfg=29 cterm=bold
 hi Number ctermfg=110
 hi Float ctermfg=110
 hi Boolean ctermfg=110
-
 
 hi Statement ctermfg=36
 hi Conditional ctermfg=36
@@ -45,7 +43,6 @@ hi Function ctermfg=157
 hi Todo ctermfg=208 ctermbg=NONE cterm=bold
 hi Pmenu ctermfg=0 ctermbg=43
 
-
 hi MatchParen cterm=bold ctermbg=34 ctermfg=black
 hi CursorLine   cterm=NONE ctermbg=236
 
@@ -54,7 +51,6 @@ hi TabLine ctermfg=15 ctermbg=235 cterm=NONE
 hi TabLineSel ctermfg=0 ctermbg=36 cterm=NONE
 
 hi Visual ctermbg=238
-
 
 hi NormalColor guifg=Black guibg=Green ctermbg=120 ctermfg=232 cterm=bold
 hi InsertColor guifg=Black guibg=Cyan ctermbg=81 ctermfg=232 cterm=bold
